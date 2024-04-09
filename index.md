@@ -50,3 +50,11 @@ Here is every pattern I've seen and how I solved.
 Here is how I use specific patterns like prefix / suffix -> HERE
 
 </div>
+
+<div style="text-align: center;">
+
+## Current Number Companies Applied To
+
+Here is every pattern I've seen and how I solved.
+
+</div>
