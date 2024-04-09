@@ -22,7 +22,7 @@ title: My Cheat Sheet
 
 <h3>Beauty-in-the-array</h3>
 <p>Here is how I use specific patterns like prefix / suffix -&gt; HERE</p>
-![Screenshot](images/beauty-in-the-array.png)
+<img src="images/beauty-in-the-array.png" alt="Screenshot">
 
 <h2>My Applications</h2>
 <p>Currently Applied to: 2 places</p>
