@@ -20,8 +20,9 @@ title: My Cheat Sheet
 <h2>My Leet-Code Cheat Sheet</h2>
 <p>Here is every pattern I've seen and how I solved.</p>
 
-<h3>Indent in:</h3>
+<h3>Beauty-in-the-array</h3>
 <p>Here is how I use specific patterns like prefix / suffix -&gt; HERE</p>
+![Screenshot](beauty-in-the-array.png)
 
 <h2>My Applications</h2>
 <p>Currently Applied to: 2 places</p>
