@@ -5,56 +5,23 @@ title: My Cheat Sheet
 
 <div style="text-align: center;">
 
-## My Docker Cheat Sheet
+<h2>My Docker Cheat Sheet</h2>
+<p>Here is everything I know about how to use Docker...</p>
 
-Here is everything I know about how to use Docker...
+<h2>My Kubernetes Cheat Sheet</h2>
+<p>Here is everything I know about how to use Kubernetes...</p>
 
-</div>
+<h2>My AWS Cheat Sheet</h2>
+<p>Here is everything I know about how to use AWS...</p>
 
-<div style="text-align: center;">
+<h2>My Linux Cheat Sheet</h2>
+<p>Here is everything I know about how to use Linux...</p>
 
-## My Kubernetes Cheat Sheet
+<h2>My Leet-Code Cheat Sheet</h2>
+<p>Here is every pattern I've seen and how I solved.</p>
 
-Here is everything I know about how to use Kubernetes...
-
-</div>
-
-<div style="text-align: center;">
-
-## My AWS Cheat Sheet
-
-Here is everything I know about how to use AWS...
+<h3>Indent in:</h3>
+<p>Here is how I use specific patterns like prefix / suffix -&gt; HERE</p>
 
 </div>
 
-<div style="text-align: center;">
-
-## My Linux Cheat Sheet
-
-Here is everything I know about how to use Linux...
-
-</div>
-
-<div style="text-align: center;">
-
-## My Leet-Code Cheat Sheet
-
-Here is every pattern I've seen and how I solved.
-
-</div>
-
-<div style="text-align: center;">
-
-### Indent in: 
-
-Here is how I use specific patterns like prefix / suffix -> HERE
-
-</div>
-
-<div style="text-align: center;">
-
-## Current Number Companies Applied To
-
-Here is every pattern I've seen and how I solved.
-
-</div>
