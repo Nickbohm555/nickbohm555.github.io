@@ -23,5 +23,8 @@ title: My Cheat Sheet
 <h3>Indent in:</h3>
 <p>Here is how I use specific patterns like prefix / suffix -&gt; HERE</p>
 
+<h2>My Applications</h2>
+<p>Currently Applied to: 2 places</p>
+
 </div>
 
