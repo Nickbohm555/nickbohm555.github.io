@@ -18,10 +18,14 @@ title: My Cheat Sheet
 <p>Here is everything I know about how to use Linux...</p>
 
 <h2>My Leet-Code Cheat Sheet</h2>
-<p>Here is every pattern I've seen and how I solved.</p>
+<p>Total Contest Comprehended: 2</p>
 
 <h3>Beauty-in-the-array</h3>
-<p>Here is how I use specific patterns like prefix / suffix -&gt; HERE</p>
+<p>In thos problem, I made a suffix right sum to track the min value. </p>
+<img src="images/beauty-in-the-array.png" alt="Screenshot">
+
+<h3>Detect-Square</h3>
+<p>In thos problem, I see if correct diagonal point exists</p>
 <img src="images/beauty-in-the-array.png" alt="Screenshot">
 
 <h2>My Applications</h2>
