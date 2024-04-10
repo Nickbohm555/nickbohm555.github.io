@@ -26,7 +26,7 @@ title: My Cheat Sheet
 
 <h3>Detect-Square</h3>
 <p>In thos problem, I see if correct diagonal point exists</p>
-<img src="images/beauty-in-the-array.png" alt="Screenshot">
+<img src="images/detect-squares.png" alt="Screenshot">
 
 <h2>My Applications</h2>
 <p>Currently Applied to: 2 places</p>
