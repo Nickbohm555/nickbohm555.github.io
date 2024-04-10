@@ -5,17 +5,15 @@ title: My Cheat Sheet
 
 <div style="text-align: center;">
 
-<h2>My Docker Cheat Sheet</h2>
-<p>Here is everything I know about how to use Docker...</p>
+<h2>My Databases Class</h2>
+<p>Everything I learned from DB Class...</p>
 
-<h2>My Kubernetes Cheat Sheet</h2>
-<p>Here is everything I know about how to use Kubernetes...</p>
+<h2>My Cloud Computing Class</h2>
+<p>Everything I learned from Cloud Computing...</p>
 
-<h2>My AWS Cheat Sheet</h2>
-<p>Here is everything I know about how to use AWS...</p>
+<h2>Open Source Development</h2>
+<p>Everything I learned from Open Source Development...</p>
 
-<h2>My Linux Cheat Sheet</h2>
-<p>Here is everything I know about how to use Linux...</p>
 
 <h2>My Leet-Code Cheat Sheet</h2>
 <p>Total Contest Comprehended: 2</p>
