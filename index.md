@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Cheat Sheet
+title: Everything to Ace My Interviews
 ---
 
 <div style="text-align: center;">
@@ -19,12 +19,12 @@ title: My Cheat Sheet
 <p>Total Contest Comprehended: 2</p>
 
 <h3>Beauty-in-the-array</h3>
-<p>In thos problem, I made a suffix right sum to track the min value. </p>
-<img src="images/beauty-in-the-array.png" alt="Screenshot">
+<p> TIP TO REMEMBER: If you see min or max of entire left side -> Use Prefix & reason. 
+ </p>
 
 <h3>Detect-Square</h3>
-<p>In thos problem, I see if correct diagonal point exists</p>
-<img src="images/detect-squares.png" alt="Screenshot">
+<p>TIP TO REMEMBER: Reason through fact that for a square, point be be diagonal. </p>
+
 
 <h2>My Applications</h2>
 <p>Currently Applied to: 2 places</p>
