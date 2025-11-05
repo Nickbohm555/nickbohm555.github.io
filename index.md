@@ -3,15 +3,79 @@ layout: page
 title: Nicholas Bohm
 ---
 
-<div style="text-align: center;">
+<style>
+.tabs {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
+}
 
-<h2>Current Work</h2>
-<p>I'm currently working on one of PwC’s leading AI initiatives, where I design containerized FastAPI + LangGraph microservices to automate risk analysis and compliance workflows. My focus is on building scalable AI systems that connect structured data, retrieval pipelines, and LangChain sub-agents for enterprise-grade performance.</p>
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #555;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s;
+}
 
-<h2>Tech Interests</h2>
-<p>I’m deeply interested in the intersection of <strong>AI agents</strong>, <strong>data orchestration</strong>, and <strong>distributed systems</strong>. I explore frameworks like LangGraph, FastStream, and Redis-based checkpointing to build multi-agent pipelines, while also studying algorithmic problem-solving and large-scale system design.</p>
+.tab:hover {
+  color: #000;
+}
 
-<h2>Hobbies</h2>
-<p>Outside of work, I train in <strong>Brazilian Jiu-Jitsu</strong>, lift weights, and study <strong>Japanese</strong>. I also enjoy traveling to historical cities — from Antigua to Varanasi — and documenting architecture, food, and culture through photography and writing.</p>
+.tab.active {
+  border-color: #000;
+  color: #000;
+}
 
+.tab-content {
+  display: none;
+  text-align: center;
+  animation: fadeIn 0.4s ease;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+</style>
+
+<div class="tabs">
+  <div class="tab active" data-tab="work">Current Work</div>
+  <div class="tab" data-tab="tech">Tech Interests</div>
+  <div class="tab" data-tab="hobbies">Hobbies</div>
 </div>
+
+<div id="work" class="tab-content active">
+  <h2>Current Work</h2>
+  <p>I'm currently working on one of PwC’s leading AI initiatives, where I design containerized FastAPI + LangGraph microservices to automate risk analysis and compliance workflows. My focus is on building scalable AI systems that connect structured data, retrieval pipelines, and LangChain sub-agents for enterprise-grade performance.</p>
+</div>
+
+<div id="tech" class="tab-content">
+  <h2>Tech Interests</h2>
+  <p>I’m deeply interested in the intersection of <strong>AI agents</strong>, <strong>data orchestration</strong>, and <strong>distributed systems</strong>. I explore frameworks like LangGraph, FastStream, and Redis-based checkpointing to build multi-agent pipelines, while also studying algorithmic problem-solving and large-scale system design.</p>
+</div>
+
+<div id="hobbies" class="tab-content">
+  <h2>Hobbies</h2>
+  <p>Outside of work, I train in <strong>Brazilian Jiu-Jitsu</strong>, lift weights, and study <strong>Japanese</strong>. I also enjoy traveling to historical cities — from Antigua to Varanasi — and documenting architecture, food, and culture through photography and writing.</p>
+</div>
+
+<script>
+const tabs = document.querySelectorAll(".tab");
+const contents = document.querySelectorAll(".tab-content");
+
+tabs.forEach(tab => {
+  tab.addEventListener("click", () => {
+    tabs.forEach(t => t.classList.remove("active"));
+    contents.forEach(c => c.classList.remove("active"));
+    tab.classList.add("active");
+    document.getElementById(tab.dataset.tab).classList.add("active");
+  });
+});
+</script>
