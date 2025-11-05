@@ -105,11 +105,30 @@ a:hover { border-bottom: 1px solid #00eaff; }
   color: #999;
   font-size: 0.95em;
 }
-.timeline-item p {
-  color: #bfbfbf;
-  margin-top: 6px;
+details {
+  margin-top: 8px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 8px;
+  padding: 10px 15px;
   text-align: left;
-  max-width: 700px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+details:hover {
+  background: rgba(0,234,255,0.05);
+}
+details summary {
+  color: #00eaff;
+  font-weight: 600;
+  cursor: pointer;
+}
+details[open] summary {
+  color: #9a5fff;
+}
+details p {
+  margin-top: 10px;
+  font-size: 0.95em;
+  line-height: 1.6em;
 }
 
 /* Blog Cards */
@@ -137,55 +156,62 @@ a:hover { border-bottom: 1px solid #00eaff; }
   margin-bottom: 10px;
 }
 .blog-card p { font-size: 0.95em; }
-
-/* Image Styling */
-.photo {
-  border-radius: 12px;
-  box-shadow: 0 0 15px #00eaff33;
-  margin: 20px auto;
-  max-width: 90%;
-  transition: transform 0.3s ease;
-}
-.photo:hover { transform: scale(1.02); }
 </style>
 
 <div class="tabs">
-  <div class="tab active" data-tab="work">Work History</div>
+  <div class="tab active" data-tab="experience">Experience</div>
   <div class="tab" data-tab="tech">Tech Interests</div>
   <div class="tab" data-tab="hobbies">Hobbies</div>
   <div class="tab" data-tab="blog">Blog Posts</div>
 </div>
 
-<!-- Work History -->
-<div id="work" class="tab-content active">
-  <h2>Work History</h2>
-  <img src="/assets/profile.jpg" alt="Profile Photo" class="photo" style="max-width:140px;border-radius:50%;">
+<!-- Experience -->
+<div id="experience" class="tab-content active">
+  <h2>Experience</h2>
+
+  <h3 style="margin-top:40px;">Work</h3>
   <div class="timeline">
     <div class="timeline-item">
-      <h3>PricewaterhouseCoopers (PwC) | AI Engineer</h3>
+      <h3>PricewaterhouseCoopers (PwC) | Software Engineer</h3>
       <span>Dec 2024 – Present | New York, NY</span>
-      <p>Developing production microservices in <strong>FastAPI</strong>, <strong>Docker</strong>, and <strong>PostgreSQL</strong> to support scalable enterprise applications. 
-      Designed modular backend architectures using <strong>LangGraph</strong> and <strong>LangChain</strong> for dynamic data retrieval, context rehydration, and API generation. 
-      Focused on <strong>multi-tenant backend design</strong>, <strong>JWT authentication</strong>, and <strong>Redis</strong>-based persistence for agent workflows.</p>
+      <details>
+        <summary>Read more</summary>
+        <p>Developing scalable production microservices using <strong>FastAPI</strong>, <strong>Docker</strong>, and <strong>PostgreSQL</strong>.
+        Designed modular architectures supporting <strong>LangGraph</strong> and <strong>LangChain</strong> integrations.
+        Focused on multi-tenant backend design, <strong>JWT authentication</strong>, and <strong>Redis</strong>-based persistence layers.</p>
+      </details>
     </div>
 
     <div class="timeline-item">
       <h3>Cisco Systems | Software Engineer Intern</h3>
       <span>Jun – Aug 2022 | San Francisco, CA</span>
-      <p>Developed <strong>Python</strong> microservices orchestrating large-scale IoT device deployments with <strong>Docker</strong> and internal APIs. 
-      Integrated RESTful 5G endpoints that reduced deployment cycles by 40% and improved system reliability by 15%.</p>
+      <details>
+        <summary>Read more</summary>
+        <p>Developed <strong>Python</strong> microservices managing large-scale IoT deployments with <strong>Docker</strong> and REST APIs.
+        Improved system reliability by 15% through deployment pipeline optimizations and edge connectivity monitoring.</p>
+      </details>
     </div>
+  </div>
 
+  <h3 style="margin-top:50px;">Education</h3>
+  <div class="timeline">
     <div class="timeline-item">
       <h3>Columbia University</h3>
-      <span>BS Computer Science – Application Track | May 2024</span>
-      <p>Took a wide variety of classes. Interned at multiple NYC startups as well.</p>
+      <span>BS Computer Science – Applications Track | May 2024</span>
+      <details>
+        <summary>Read more</summary>
+        <p>Focused on <strong>Machine Learning</strong>, <strong>AI systems</strong>, and <strong>distributed computing</strong>. 
+        Conducted research projects and contributed to agentic tooling frameworks. Graduated with distinction.</p>
+      </details>
     </div>
 
     <div class="timeline-item">
       <h3>Colorado College</h3>
       <span>BA Computer Science | May 2022</span>
-      <p>Played <strong>D3 Tennis</strong> for the Colorado College team while completing foundational CS courses before transferring to Columbia.</p>
+      <details>
+        <summary>Read more</summary>
+        <p>Played <strong>D3 Tennis</strong> for the college team and completed foundational CS courses before transferring to Columbia.</p>
+      </details>
     </div>
   </div>
 </div>
@@ -206,9 +232,9 @@ a:hover { border-bottom: 1px solid #00eaff; }
 <!-- Hobbies -->
 <div id="hobbies" class="tab-content">
   <h2>Hobbies</h2>
-  <img src="/assets/sailing.jpg" alt="Sailing on Hudson River" class="photo">
   <p>
-    Outside of work, I’m passionate about <strong>lifting and fitness</strong>, improving my <strong>Japanese</strong>, and <strong>traveling</strong> — having visited 
+    Outside of work, I’m passionate about <strong>lifting and fitness</strong>,
+    improving my <strong>Japanese</strong>, and <strong>traveling</strong> — having visited 
     <strong>33 countries across 5 continents</strong>.  
     I also enjoy <strong>tennis</strong> (former D3 player at Colorado College, though harder to play in NYC) and 
     <strong>sailing on the Hudson River</strong>.
