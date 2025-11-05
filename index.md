@@ -1,35 +1,17 @@
 ---
 layout: page
-title: Everything to Ace My Interviews
+title: Nicholas Bohm
 ---
 
 <div style="text-align: center;">
 
-<h2>My Databases Class</h2>
-<p>Everything I learned from DB Class...</p>
+<h2>Current Work</h2>
+<p>I'm currently working on one of PwC’s leading AI initiatives, where I design containerized FastAPI + LangGraph microservices to automate risk analysis and compliance workflows. My focus is on building scalable AI systems that connect structured data, retrieval pipelines, and LangChain sub-agents for enterprise-grade performance.</p>
 
-<h2>My Cloud Computing Class</h2>
-<p>Everything I learned from Cloud Computing...</p>
-<p>s3 = used to store web data. s3 -> buckets -> can have .html file with static web hosting. 
-Web server seems to go in s3 hmmm</p>
+<h2>Tech Interests</h2>
+<p>I’m deeply interested in the intersection of <strong>AI agents</strong>, <strong>data orchestration</strong>, and <strong>distributed systems</strong>. I explore frameworks like LangGraph, FastStream, and Redis-based checkpointing to build multi-agent pipelines, while also studying algorithmic problem-solving and large-scale system design.</p>
 
-<h2>Open Source Development</h2>
-<p>Everything I learned from Open Source Development...</p>
-
-<h2>My Applications</h2>
-<p>Currently Applied to: 2 places</p>
-
-<h2>My Leet-Code Cheat Sheet</h2>
-<p>Total Contest Comprehended: 2</p>
-
-<h3>Beauty-in-the-array</h3>
-<p> TIP TO REMEMBER: If you see min or max of entire left side -> Use Prefix & reason. 
- </p>
-
-<h3>Detect-Square</h3>
-<p>TIP TO REMEMBER: Reason through fact that for a square, point be be diagonal. </p>
-
-
+<h2>Hobbies</h2>
+<p>Outside of work, I train in <strong>Brazilian Jiu-Jitsu</strong>, lift weights, and study <strong>Japanese</strong>. I also enjoy traveling to historical cities — from Antigua to Varanasi — and documenting architecture, food, and culture through photography and writing.</p>
 
 </div>
-
