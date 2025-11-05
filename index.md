@@ -118,7 +118,7 @@ a:hover {
     Outside of work, I’m passionate about <strong>lifting and fitness</strong>,
     improving my <strong>Japanese</strong>, and <strong>traveling</strong> — having visited
     <strong>33 countries across 5 continents</strong>. 
-    I also love <strong>sailing on the Hudson River</strong> and training in <strong>Brazilian Jiu-Jitsu</strong>.
+    I also love <strong>sailing on the Hudson River</strong>.
   </p>
 </div>
 
